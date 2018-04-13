@@ -1,0 +1,38 @@
+﻿生成启动时间为 2018/3/20 10:17:07。
+     1>项目“D:\workspace\SLAM-Server\SLAM-Server\SLAM-Server.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\workspace\SLAM-Server\SLAM-Server\include" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\SLAM-Server.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyDatabase.cpp
+         MyDatabase.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\deque(1833): warning C4996: 'Json::Reader::Location': Use CharReader and CharReaderBuilder instead
+                 d:\workspace\slam-server\slam-server\include\json\reader.h(38) : 参见“Json::Reader::Location”的声明
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\deque(1827): 编译类 模板 成员函数“void std::deque<Json::Reader::ErrorInfo,std::allocator<_Ty>>::_Tidy(void)”时
+                 with
+                 [
+                     _Ty=Json::Reader::ErrorInfo
+                 ]
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\deque(1215): 参见对正在编译的函数 模板 实例化“void std::deque<Json::Reader::ErrorInfo,std::allocator<_Ty>>::_Tidy(void)”的引用
+                 with
+                 [
+                     _Ty=Json::Reader::ErrorInfo
+                 ]
+                 d:\workspace\slam-server\slam-server\include\json\reader.h(238): 参见对正在编译的类 模板 实例化“std::deque<Json::Reader::ErrorInfo,std::allocator<_Ty>>”的引用
+                 with
+                 [
+                     _Ty=Json::Reader::ErrorInfo
+                 ]
+     1>d:\workspace\slam-server\slam-server\mydatabase.cpp(796): warning C4700: 使用了未初始化的局部变量“out_end_x”
+     1>d:\workspace\slam-server\slam-server\mydatabase.cpp(797): warning C4700: 使用了未初始化的局部变量“out_end_y”
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\workspace\SLAM-Server\Debug\SLAM-Server.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\workspace\SLAM-Server\SLAM-Server\lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\workspace\SLAM-Server\Debug\SLAM-Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\workspace\SLAM-Server\Debug\SLAM-Server.lib" /MACHINE:X86 Debug\CcomClient.obj
+         Debug\memdata.obj
+         Debug\MyDatabase.obj
+         Debug\mytypedef.obj
+         Debug\ShareMemory.obj
+         "Debug\SLAM-Server.obj"
+         Debug\stdafx.obj
+         SLAM-Server.vcxproj -> D:\workspace\SLAM-Server\Debug\SLAM-Server.exe
+     1>已完成生成项目“D:\workspace\SLAM-Server\SLAM-Server\SLAM-Server.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.40

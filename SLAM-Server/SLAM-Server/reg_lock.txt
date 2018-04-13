@@ -1,0 +1,6 @@
+global_inf_map_lock
+goal_map_lock
+laser_inf_map_lock
+local_path_map_lock
+planner_map_lock
+prohibit_map_lock
